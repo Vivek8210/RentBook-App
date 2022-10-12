@@ -48,7 +48,7 @@ const Navbar = () => {
               as={"nav"}
               margin={"auto"}
               spacing={2}
-              fontSize={"14px"}
+              fontSize={"24px"}
               color={"white"}
               alignItems={"center"}
               fontWeight={"600"}
@@ -67,7 +67,7 @@ const Navbar = () => {
               </Link>
               <Link to="/cart">
                 <Flex cursor="pointer">
-                  <Icon as={BsCart3} boxSize="1.1rem" mt="7px" />
+                  <Icon as={BsCart3} boxSize="1.4rem" mt="14px" />
                   <Text></Text>
                   <Text paddingTop={"0.4rem"}>Cart</Text>
                 </Flex>
@@ -109,23 +109,22 @@ const Navbar = () => {
               textAlign={"start"}
               fontWeight={"medium"}
             >
-              <SearchBarWrapper className="searchbar" width={"100%"}>
+              <SearchBarWrapper className="searchbar" width={"100%"} >
                 <Image
+                width={'100%'}
+                height={'100px'}
                   src="https://image.shutterstock.com/image-vector/magnifying-glass-search-icon-flat-260nw-738763579.jpg"
                   alt=" Search logo"
                 />
                 <Input
+                height={'10px'}
                   placeholder="Search"
                   value={text}
                   onChange={(e) => setText(e.target.value)}
                 />
               </SearchBarWrapper>
-              <Link to="/login">
-                <Box cursor="pointer">Log in</Box>
-              </Link>
-              <Link to="/chat">
-                <Box cursor="pointer">Chat</Box>
-              </Link>
+             
+              
               <Link to="/home">
                 <Box cursor="pointer">Home</Box>
               </Link>
