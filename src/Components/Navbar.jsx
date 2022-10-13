@@ -43,7 +43,6 @@ const Navbar = () => {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={"center"}>
-          
             <HStack
               className="nav"
               as={"nav"}
@@ -60,11 +59,9 @@ const Navbar = () => {
               rounded={"md"}
               justifyContent={"space-between"}
               gap={"10px"}
-              marginLeft={"650px"}
+              marginLeft={"20px"}
             >
-                
               <Link to="/home">
-              
                 <Box cursor="pointer">Home</Box>
               </Link>
               <Link to="/cart">
@@ -76,17 +73,24 @@ const Navbar = () => {
               </Link>
               <SearchBarWrapper>
                 <Image
+                width={"50px"}
+                height={"80px"}
+                cursor={"pointer"}
                   src="https://image.shutterstock.com/image-vector/magnifying-glass-search-icon-flat-260nw-738763579.jpg"
                   alt=" Search logo"
                 />
                 <Input
+                
                   placeholder="Search"
                   value={text}
                   onChange={(e) => setText(e.target.value)}
                 />
               </SearchBarWrapper>
-              
+             <Link>
+             <Box marginRight={"60px"}>Book Buy And Rent App</Box>
+             </Link>
             </HStack>
+            
           </HStack>
 
           <Flex alignItems={"center"} className="searchbar">
@@ -112,22 +116,21 @@ const Navbar = () => {
               textAlign={"start"}
               fontWeight={"medium"}
             >
-              <SearchBarWrapper className="searchbar" width={"100%"} >
+              <SearchBarWrapper className="searchbar" width={"100%"}>
                 <Image
-                width={'100%'}
-                height={'100px'}
+                  width={"100%"}
+                  height={"100px"}
                   src="https://image.shutterstock.com/image-vector/magnifying-glass-search-icon-flat-260nw-738763579.jpg"
                   alt=" Search logo"
                 />
                 <Input
-                height={'10px'}
+                  height={"10px"}
                   placeholder="Search"
                   value={text}
                   onChange={(e) => setText(e.target.value)}
                 />
               </SearchBarWrapper>
-             
-              
+
               <Link to="/home">
                 <Box cursor="pointer">Home</Box>
               </Link>

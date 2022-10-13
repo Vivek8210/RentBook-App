@@ -432,7 +432,7 @@
       "category": "Historical",
       "release_year": 1943,
       "price": 200,
-      "day": 1
+      "day": 3
     },
     {
       "id": 4,
@@ -443,6 +443,28 @@
       "category": "Biography",
       "release_year": 2016,
       "price": 987,
+      "day": 4
+    },
+    {
+      "id": 2,
+      "author": "Anne Brontë Peter Merchant",
+      "Description": "Librarian note: Alternate cover editions for this ISBN are:(with the title on white andon a black and blue background",
+      "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/The_Tenant_Of_Wildfell_Hall2021-11-03-09-15-09.jpg",
+      "book_name": "The Tenant Of Wildfell Hall ",
+      "category": "Biography",
+      "release_year": 2003,
+      "price": 187,
+      "day": 1
+    },
+    {
+      "id": 3,
+      "author": " Elizabeth Gaskell Martin Dodsworth Dorothy Collin",
+      "Description": "When Margaret Hale's father leaves the Church in a crisis of conscience she is forced to leave her comfortable home in the tranquil countryside of Hampshire and move with her family to the fictional industrial town of Milton in the north of England. Though at first disgusted by her new surroundings, she witnesses the brutality wrought by the Industrial Revolution and becomes aware of the poverty and suffering of the local mill workers. Sympathetic to the poor she makes friends among them and develops a fervent sense of social justice. She clashes with the mill-owner and self-made man, John Thornton, who is contemptuous of his workers. However, their fierce opposition masks a deeper attraction.",
+      "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/North_And_South2021-08-06-17-28-19.jpg",
+      "book_name": "North And South ",
+      "category": "Biography",
+      "release_year": 2020,
+      "price": 198,
       "day": 1
     }
   ]

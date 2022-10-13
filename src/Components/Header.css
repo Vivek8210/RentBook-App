@@ -1,39 +1,36 @@
-.novellogo{
-    width: 100%;
-    color:'#400788'
+.novellogo {
+  width: 100%;
+  color: "#400788";
 }
-.Collections{
-    width: 60%;
-    
+.Collections {
+  width: 60%;
 }
-.hostory{
-    width: 15%;
+.hostory {
+  width: 15%;
 }
-.all{
-    width :'85%'
+.all {
+  width: "85%";
 }
-.browserby{
-    width: 150px;
+.browserby {
+  width: 150px;
 }
-
 
 @media screen and (min-width: 380px) {
-    .novellogo {
-   color: brown;
-   width: 100%;
-    }
-    .Collections{
-        width: 100%;
-        text-align: center;
-    }
-    .hostory{
-        width: 55%;
-    }
-    .all{
-        width :'105%'
-    }
-   
+  .novellogo {
+    color: brown;
+    width: 100%;
   }
+  .Collections {
+    width: 100%;
+    text-align: center;
+  }
+  .hostory {
+    width: 55%;
+  }
+  .all {
+    width: "105%";
+  }
+}
 /* 
   @media (min-width: 500px) {
     Text{

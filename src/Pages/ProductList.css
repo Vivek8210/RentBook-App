@@ -1,3 +1,4 @@
 .productList:hover{
-    
+    transform: scale(1.1);
+    transition-delay: 0.3s;
 }
