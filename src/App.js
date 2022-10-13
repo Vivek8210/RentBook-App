@@ -4,13 +4,16 @@ import Navbar from './Components/Navbar';
 import Header from './Components/Header';
 import Home from './Pages/Home';
 import Footer from './Components/Footer';
+import MainRoutes from './Router/MainRoutes';
 
 function App() {
   return (
     <div className="App">
      
    <Navbar/>
-   <Home/>
+   <div >
+      <MainRoutes/>
+       </div>
    <Footer/>
     </div>
   );

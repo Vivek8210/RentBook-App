@@ -43,6 +43,7 @@ const Navbar = () => {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={"center"}>
+          
             <HStack
               className="nav"
               as={"nav"}
@@ -59,10 +60,11 @@ const Navbar = () => {
               rounded={"md"}
               justifyContent={"space-between"}
               gap={"10px"}
-              marginLeft={"50px"}
+              marginLeft={"650px"}
             >
-              <Link to="/home">
                 
+              <Link to="/home">
+              
                 <Box cursor="pointer">Home</Box>
               </Link>
               <Link to="/cart">
@@ -83,6 +85,7 @@ const Navbar = () => {
                   onChange={(e) => setText(e.target.value)}
                 />
               </SearchBarWrapper>
+              
             </HStack>
           </HStack>
 

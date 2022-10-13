@@ -5,7 +5,17 @@ import "./Header.css"
 const Header = () => {
 const navigate=useNavigate();
   const handelChange =(e)=>{
-   
+    if(e.target.value==='Historical'){
+      navigate('/historical')
+      }else if(e.target.value==='Fantasy'){
+      navigate('/fantacy')
+      }else if(e.target.value==='Science'){
+        navigate('/science')
+        }else if(e.target.value==='Mystery'){
+          navigate('/mystery')
+          }else if(e.target.value==='Horror'){
+            navigate('/horror')
+            }
        
   }
   return (

@@ -3,10 +3,10 @@ import Browse from '../Components/Browse'
 import {Box,Text,Flex} from '@chakra-ui/react'
 import ProductList from './ProductList'
 import {useSelector,useDispatch} from 'react-redux'
-import {getHorror} from '../Redux/action'
+import {getMystery} from '../Redux/action'
 import Header from '../Components/Header'
 import {useSearchParams,useLocation} from 'react-router-dom'
-const Horror = () => {
+const Mystery = () => {
   const products=useSelector((state) =>state.products);
   const [searchParams]=useSearchParams();
   const location=useLocation();
@@ -29,20 +29,20 @@ const Horror = () => {
          
       }
     }
-    dispatch(getHorror(getBookParams))
+    dispatch(getMystery(getBookParams))
   }
              
        
    },[location.search])
 
 return (
-  <div style={{width:'75%',height:'auto',margin:'auto'}}>
+  <div style={{width:'75%',height:'auto',margin:'auto'}} >
   <Box>
       <Box>
           <Header/>
       </Box>
       <Box  height='60px'>
-          <Text fontSize='14px' textAlign='left' padding='1rem'>{`Home > Horror`}</Text>
+          <Text fontSize='14px' textAlign='left' padding='1rem'>{`Home > Mystery`}</Text>
       </Box>
       <Box>
       <Browse />
@@ -61,4 +61,4 @@ return (
   </div>
 )
 }
-export default Horror
+export default Mystery
