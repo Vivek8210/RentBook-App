@@ -9,6 +9,7 @@ import Cart from '../Pages/Cart'
 
 import SinglePage from "../Components/SinglePage";
 import First from '../Pages/First'
+import Checkout from "../Pages/Checkout";
 
 
 const MainRoutes =()=>{
@@ -26,6 +27,7 @@ const MainRoutes =()=>{
             <Route path='/product/:id' element={<SinglePage/>}/>
            
             <Route path="/" element={<First/>}/> 
+            <Route path="/checkout" element={<Checkout/>}/> 
            
           
         </Routes>

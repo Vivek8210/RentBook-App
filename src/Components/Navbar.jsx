@@ -2,8 +2,10 @@ import React, { useState, useEffect } from "react";
 
 import { BsCart3 } from "react-icons/bs";
 import styled from "styled-components";
+import { getProducts } from "../Redux/action";
+import {  useDispatch } from "react-redux";
+import { useSearchParams, Link } from "react-router-dom";
 
-import { Link } from "react-router-dom";
 
 import {
   Box,
@@ -25,9 +27,23 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { Divider } from "@chakra-ui/react";
-
+import CartCounter from "../Components/CartCounter";
 const Navbar = () => {
+  const [searchParms, setSearchParams] = useSearchParams();
+  const [q, setQ] = useState(searchParms.get("q") || "");
   const [text, setText] = useState("");
+  const dispatch = useDispatch();
+  useEffect(() => {
+    if (q) {
+      setSearchParams({ q: q }, { replace: true });
+
+      let params = {
+        q: searchParms.get("q"),
+      };
+      dispatch(getProducts(params));
+    }
+  }, [setSearchParams, dispatch, q]);
+ 
 
   const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -58,7 +74,7 @@ const Navbar = () => {
               py={1}
               rounded={"md"}
               justifyContent={"space-between"}
-              gap={"10px"}
+              gap={"6px"}
               marginLeft={"20px"}
             >
               <Link to="/home">
@@ -67,7 +83,7 @@ const Navbar = () => {
               <Link to="/cart">
                 <Flex cursor="pointer">
                   <Icon as={BsCart3} boxSize="1.4rem" mt="14px" />
-                  <Text></Text>
+                  <Text><CartCounter/></Text>
                   <Text paddingTop={"0.4rem"}>Cart</Text>
                 </Flex>
               </Link>
@@ -87,22 +103,16 @@ const Navbar = () => {
                 />
               </SearchBarWrapper>
              <Link>
-             <Box marginRight={"60px"}>Book Buy And Rent App</Box>
+             <Box marginLeft={"60px"}>Book Buy And Rent App</Box>
              </Link>
             </HStack>
+
+           
             
           </HStack>
 
-          <Flex alignItems={"center"} className="searchbar">
-            <Menu>
-              <MenuList>
-                <MenuItem>Link 1</MenuItem>
-                <MenuItem>Link 2</MenuItem>
-                <MenuDivider />
-                <MenuItem>Link 3</MenuItem>
-              </MenuList>
-            </Menu>
-          </Flex>
+      
+          
         </Flex>
 
         {isOpen ? (

@@ -1,5 +1,6 @@
 import {GET_NOVELS_REQUEST,GET_NOVELS_SUCCESS,GET_NOVELS_FAILURE} from './actionType';
 import { ADD_CART_DATA_REQUEST,ADD_CART_DATA_SUCCESS,ADD_CART_DATA_FAILURE,FETCH_CART_SUCCESS } from "./actionType";
+import { DELETE_CART_DATA_REUEST,DELETE_CART_DATA_SUCCESS,DELETE_CART_DATA_FAILURE} from "./actionType";
 import axios from 'axios';
 
 
@@ -90,3 +91,12 @@ export const getProducts = (payload,q) => dispatch =>{
       .then((r)=>dispatch({type:FETCH_CART_SUCCESS,payload:r.data}))
       .catch((err) =>dispatch({type:ADD_CART_DATA_FAILURE,payload:err}))
       }
+
+      export const deleteProductCart = (id) => dispatch =>{
+
+        dispatch({type:DELETE_CART_DATA_REUEST})
+        return axios.delete(`http://localhost:8080/cart/${id}`)
+        .then(r=>dispatch({type:DELETE_CART_DATA_SUCCESS,payload:r.data}))
+        .then(()=>dispatch(fetchCart()))
+        .catch((err) =>dispatch({type:DELETE_CART_DATA_FAILURE,payload:err}))
+        }
