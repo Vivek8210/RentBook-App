@@ -20,7 +20,7 @@
       "category": "Biography",
       "release_year": 2003,
       "price": 187,
-      "day": 1
+      "day": 2
     },
     {
       "id": 3,
@@ -31,7 +31,7 @@
       "category": "Biography",
       "release_year": 2020,
       "price": 198,
-      "day": 1
+      "day": 3
     },
     {
       "id": 4,
@@ -42,7 +42,7 @@
       "category": "Biography",
       "release_year": 2016,
       "price": 987,
-      "day": 1
+      "day": 4
     },
     {
       "id": 5,
@@ -53,7 +53,7 @@
       "category": "Art",
       "release_year": 2007,
       "price": 765,
-      "day": 1
+      "day": 5
     },
     {
       "id": 6,
@@ -64,7 +64,7 @@
       "category": "Art",
       "release_year": 2007,
       "price": 765,
-      "day": 1
+      "day": 6
     },
     {
       "id": 7,
@@ -75,7 +75,7 @@
       "category": "Art",
       "release_year": 2007,
       "price": 765,
-      "day": 1
+      "day": 7
     },
     {
       "id": 8,
@@ -86,7 +86,7 @@
       "category": "India",
       "release_year": 2007,
       "price": 765,
-      "day": 1
+      "day": 8
     },
     {
       "id": 9,
@@ -97,7 +97,7 @@
       "category": "India",
       "release_year": 2009,
       "price": 965,
-      "day": 1
+      "day": 9
     },
     {
       "id": 10,
@@ -108,7 +108,7 @@
       "category": "India",
       "release_year": 1989,
       "price": 565,
-      "day": 1
+      "day": 10
     },
     {
       "id": 11,
@@ -119,7 +119,7 @@
       "category": "History",
       "release_year": 2013,
       "price": 226,
-      "day": 1
+      "day": 11
     },
     {
       "id": 12,
@@ -130,7 +130,7 @@
       "category": "Historical",
       "release_year": 1943,
       "price": 200,
-      "day": 1
+      "day": 12
     },
     {
       "id": 13,
@@ -141,7 +141,7 @@
       "category": "History",
       "release_year": 2008,
       "price": 267,
-      "day": 1
+      "day": 13
     },
     {
       "id": 14,
@@ -152,7 +152,7 @@
       "category": "Historical",
       "release_year": 2017,
       "price": 226,
-      "day": 1
+      "day": 14
     },
     {
       "id": 15,
@@ -163,7 +163,7 @@
       "category": "History",
       "release_year": 2013,
       "price": 229,
-      "day": 1
+      "day": 15
     },
     {
       "id": 16,
@@ -174,7 +174,7 @@
       "category": "Historical",
       "release_year": 2007,
       "price": 330,
-      "day": 1
+      "day": 16
     },
     {
       "id": 17,
@@ -185,7 +185,7 @@
       "category": "Historical",
       "release_year": 2003,
       "price": 168,
-      "day": 1
+      "day": 17
     },
     {
       "id": 18,
@@ -195,12 +195,13 @@
       "book_name": "Shooting History",
       "category": "History",
       "release_year": 2006,
-      "price": 2268
+      "price": 2268,
+      "day": 18
     }
   ],
   "romance": [
     {
-      "id": 1,
+      "id": 19,
       "author": " Gloria Cook",
       "Description": "The new book in the popular Harvey series - It is 1948, and the village of Hennaford is struggling to recover from the war. Johnny Harvey is disillusioned; injured in the war and disturbed at the changing society; life seems to be passing him by. Meanwhile, sixteen-year-old Tess Viant, crippled with polio and abandoned by her family, is befriended by Jill Harvey. Jill is delighted to be pregnant after four years of marriage to Tom, but when complications arise, it's Tess who has to help Jill . . .",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/A_Whisper_Of_Life_Harvey_Family_Sagas2022-06-16-11-20-45.jpg",
@@ -208,10 +209,10 @@
       "category": "ROMANCE-BOOKS",
       "release_year": 1948,
       "price": 150,
-      "day": 1
+      "day": 19
     },
     {
-      "id": 2,
+      "id": 20,
       "author": "Gloria Cook",
       "Description": "Take one aspiring cook, one judge, and a spoonful of romance...",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/Recipe_For_Love2020-12-15-16-41-20.jpg",
@@ -219,10 +220,10 @@
       "category": "ROMANCE-BOOKS",
       "release_year": 2013,
       "price": 150,
-      "day": 1
+      "day": 20
     },
     {
-      "id": 3,
+      "id": 21,
       "author": "Fforde Katie",
       "Description": "nhtdjydyj",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/Recipe_For_Love2020-12-15-16-41-20.jpg",
@@ -230,10 +231,10 @@
       "category": "ROMANCE-BOOKS",
       "release_year": 200,
       "price": 750,
-      "day": 1
+      "day": 21
     },
     {
-      "id": 4,
+      "id": 22,
       "author": "Alice Sebold ",
       "Description": "My name was Salmon, like the fish; first name, Susie. I was fourteen when I was murdered on December 6, 1973. My murderer was a man from our neighborhood. My mother liked his border flowers, and my father talked to him once about fertilizer.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/3576",
@@ -241,10 +242,10 @@
       "category": "ROMANCE-BOOKS",
       "release_year": 2009,
       "price": 405,
-      "day": 1
+      "day": 22
     },
     {
-      "id": 5,
+      "id": 23,
       "author": "John Green",
       "Description": "Despite the tumor-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal, her final chapter inscribed upon diagnosis. But when a gorgeous plot twist named Augustus Waters suddenly appears at Cancer Kid Support Group, Hazel's story is about to be completely rewritten.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/6647",
@@ -256,7 +257,7 @@
   ],
   "science": [
     {
-      "id": 6,
+      "id": 24,
       "author": "Meyer Stephenie",
       "Description": "Our World has been invaded by an unseen enemy. Humans become hosts for these invaders, their minds taken over while their bodies remain intact and continue their lives apparently unchanged. Most of humanity has succumbed.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/THE_HOST_FILM_TIE_IN2020-08-31-16-05-55.jpg",
@@ -264,10 +265,10 @@
       "category": "SCIENCE-FICTION-BOOKS",
       "release_year": 2013,
       "price": 169,
-      "day": 1
+      "day": 24
     },
     {
-      "id": 7,
+      "id": 25,
       "author": "Andy Weir ",
       "Description": "If the Oxygenator breaks down, I`ll suffocate. If the Water Reclaimer breaks down, I’ll die of thirst. If the Hab breaches, I’ll just kind of explode. If none of those things happen, I’ll eventually run out of food and starve to death.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/The_Martian_Stranded_On_Mars_One_Astronaut_Fights_To_Survive2020-12-27-02-16-34.jpg",
@@ -275,10 +276,10 @@
       "category": "SCIENCE-FICTION-BOOKS",
       "release_year": 2005,
       "price": 207,
-      "day": 1
+      "day": 25
     },
     {
-      "id": 8,
+      "id": 26,
       "author": "Cavan Scott",
       "Description": "It is a dark time in a galaxy far, far away...When the parents of Milo and Lina Graf are abducted by agents of the evil Empire, the children must undertake a perilous journey across the unknown reaches of Wild Space to rescue them - and to discover hope for the future.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/The_Escape2021-01-04-07-57-03.jpg",
@@ -286,10 +287,10 @@
       "category": "SCIENCE-FICTION-BOOKS",
       "release_year": 2009,
       "price": 406,
-      "day": 1
+      "day": 26
     },
     {
-      "id": 9,
+      "id": 27,
       "author": " Meyer Stephenie",
       "Description": "Melanie Stryder refuses to fade away. The earth has been invaded by a species that takes over the minds of their human hosts while leaving their bodies intact, and most of humanity has succumbed.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/THE_HOST2020-08-31-15-39-14.jpg",
@@ -297,10 +298,10 @@
       "category": "SCIENCE-FICTION-BOOKS",
       "release_year": 2008,
       "price": 209,
-      "day": 1
+      "day": 27
     },
     {
-      "id": 10,
+      "id": 28,
       "author": " Isaac Asimov Chris Foss",
       "Description": "Elijah Baley has faced Departmental hostility since his return to Earth from the planet Solaria, where he solved the first murder to be committed in 200 years. Against his will, a hyperwave drama was made of the case, thanks to Delmarre, the murder suspect whom he proved innocent.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/The_Robots_Of_Dawn_Robot_32022-07-06-11-56-00.jpg",
@@ -312,7 +313,7 @@
   ],
   "mystery": [
     {
-      "id": 1,
+      "id": 29,
       "author": "Cussler Clive",
       "Description": "In the remote wastes of Greenland, a young scientist has unearthed a hidden artefact - a 50,000 year-old meteorite known as the Sacred Stone. When he discovers its potentially catastrophic powers, he finds himself in the crosshairs of two opposing terrorist groups.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/SACRED_STONE_OREGON_FILES_22020-08-26-14-17-44",
@@ -320,10 +321,10 @@
       "category": "MYSTERY-THRILLER-ADVENTURE-BOOKS",
       "release_year": 2010,
       "price": 270,
-      "day": 1
+      "day": 29
     },
     {
-      "id": 2,
+      "id": 30,
       "author": " Dick Francis",
       "Description": "It's the third death on Cheltenham Gold Cup Day that really troubles Sid Halley. He knows the perils of racing all too well - but in his day, jockeys didn't reach the finishing line with three .38 rounds in the chest. This is precisely how he finds jockey Huw Walker - who, only a few hours earlier, had won the Triumph Hurdle.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/UNDER_ORDERS2020-08-28-16-38-00",
@@ -331,10 +332,10 @@
       "category": "MYSTERY-THRILLER-ADVENTURE-BOOKS",
       "release_year": 2004,
       "price": 186,
-      "day": 1
+      "day": 30
     },
     {
-      "id": 3,
+      "id": 31,
       "author": "Smith Wilbur",
       "Description": "PREDATOR is a novel brimming with the swashbuckling panache and gripping tension Wilbur fans love and new reasers will be thrilled by.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/PREDATOR2020-08-25-14-41-58",
@@ -345,7 +346,7 @@
       "day": 1
     },
     {
-      "id": 4,
+      "id": 32,
       "author": "Picoult Jodi",
       "Description": "Sara Fitzgerald's daughter Kate is just two years old when she is diagnosed with a rare form of leukaemia. Reeling with the helpless shock of it, Sara knows she will do anything - whatever it takes - to save her child.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/MY_SISTERS_KEEPER2020-08-28-17-06-07",
@@ -356,7 +357,7 @@
       "day": 1
     },
     {
-      "id": 5,
+      "id": 33,
       "author": "Patterson James",
       "Description": "Detective Alex Cross is one of the first on the scene of the biggest case he's ever been part of. The President's son and daughter have been abducted from their school - an impossible crime, but somehow the kidnapper has done it. Alex does everything he can but is shunted to the fringes of the investigation. Someone powerful doesn't want Cross too close.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/KILL_ALEX_CROSS_ALEX_CROSS_182020-08-28-15-07-41",
@@ -368,7 +369,7 @@
   ],
   "horror": [
     {
-      "id": 6,
+      "id": 34,
       "author": "Stephanie Merritt",
       "Description": "On a remote Scottish island, the McBride house stands guard over its secrets. A century ago, a young widow and her son died mysteriously there; just last year a local boy, visiting for a dare, disappeared without a trace.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/While_You_Sleep2022-06-01-14-41-11.jpg",
@@ -379,7 +380,7 @@
       "day": 1
     },
     {
-      "id": 7,
+      "id": 35,
       "author": "Masello Robert",
       "Description": "When journalist Michael Wilde is commissioned to write a feature about a remote research station deep in the frozen beauty of Antarctica he is prepared for some extraordinary sights. But on a diving expedition in the polar sea he comes across something so extraordinary to be almost unbelievable - a man and woman chained together, deep in the ice.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/Blood_And_Ice2020-12-15-16-42-31.jpg",
@@ -390,7 +391,7 @@
       "day": 1
     },
     {
-      "id": 8,
+      "id": 36,
       "author": "Irwin Stephen",
       "Description": "After his wife's sudden death, Nick Close has decided to leave London and return to Australia, hoping that distance will bring oblivion. But Tallong, his run-down childhood home, doesn't hold much comfort either: Thirty years ago, he and his best friend Tristram were lured into the woods at the edge of town.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/THE_DARKENING2020-08-31-19-10-23.jpg",
@@ -401,7 +402,7 @@
       "day": 1
     },
     {
-      "id": 9,
+      "id": 37,
       "author": "Stephen King",
       "Description": "Civilization slipped into its second dark age on an unsurprising track of blood but with a speed that could not have been foreseen by even the most pessimistic futurist. By Halloween, every major city from New York to Moscow stank to the empty heavens and the world as it had been was a memory.` The event became known as The Pulse. The virus was carried by every cell phone operating within the entire world. Within ten hours, most people would be dead or insane.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/Cell2021-10-11-19-06-51.jpg",
@@ -412,7 +413,7 @@
       "day": 1
     },
     {
-      "id": 11,
+      "id": 38,
       "author": "Max Brooks",
       "Description": "It began with rumours from China about another pandemic... Then the cases started to multiply and what had looked like the stirrings of a criminal underclass, even the beginnings of a revolution, soon revealed itself to be much, much worse. Faced with a future of mindless, man-eating horror, humanity was forced to accept the logic of world government and face events that tested our sanity and our sense of reality.",
       "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/World_War_Z_An_Oral_History_Of_The_Zombie_War2022-02-10-16-32-39.jpg",
@@ -423,28 +424,6 @@
     }
   ],
   "cart": [
-    {
-      "id": 2,
-      "author": "Anne Brontë Peter Merchant",
-      "Description": "Librarian note: Alternate cover editions for this ISBN are:(with the title on white andon a black and blue background",
-      "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/The_Tenant_Of_Wildfell_Hall2021-11-03-09-15-09.jpg",
-      "book_name": "The Tenant Of Wildfell Hall ",
-      "category": "Biography",
-      "release_year": 2003,
-      "price": 187,
-      "day": 4
-    },
-    {
-      "id": 1,
-      "author": "Dickens Charles",
-      "Description": "David Copperfield is the story of a young man's adventures on his journey from an unhappy and impoverished childhood to the discovery of his vocation as a successful novelist. Among the gloriously vivid cast of characters he encounters are his tyrannical stepfather, Mr Murdstone; his brilliant, but ultimately unworthy school-friend James Steerforth; his formidable aunt, Betsey Trotwood; the eternally humble, yet treacherous Uriah Heep; frivolous, enchanting Dora Spenlow; and the magnificently impecunious Wilkins Micawber, one of literature's great comic creations. In David Copperfield - the novel he described as his 'favourite child' - Dickens drew revealingly on his own experiences to create one of the most exuberant and enduringly popular works, filled with tragedy and comedy in equal measure. This edition uses the text of the first volume publication of 1850, and includes updated suggestions for further reading, original illustrations by 'Phiz', a revised chronology and expanded notes. In his new introduction, Jeremy Tambling discusses the novel's autobiographical elements, and its central themes of memory and identity.",
-      "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/David_Copperfield_The_Penguin_English_Library2020-12-15-16-31-05.jpg",
-      "book_name": "David Copperfield The Penguin English Library ",
-      "category": "Biography",
-      "release_year": 1998,
-      "price": 165,
-      "day": 5
-    },
     {
       "id": 3,
       "author": " Elizabeth Gaskell Martin Dodsworth Dorothy Collin",
@@ -465,6 +444,17 @@
       "category": "Art",
       "release_year": 2007,
       "price": 765,
+      "day": 1
+    },
+    {
+      "id": 17,
+      "author": "Geoffrey Wheatcroft ",
+      "Description": "When Henri Desgrange began a new bicycle road race in 1903, he saw it as little more than a temporary publicity stunt to promote his newspaper. The 60 cyclists who left Paris to ride through the night to Lyons that first July had little idea they were pioneers of the most famous of all bike races, which would reach its centenary as one of the greatest sporting events on earth. Geoffrey Wheatcroft's masterly history of the Tour de France's first hundred years is not just a hugely entertaining canter through some great Tour stories; nor is it merely a homage to the riders whose names—Coppi, Simpson, Mercx, Armstrong—are synonymous with the event's folly and glory. Focusing too on the race's role in French cultural life, it provides a unique and fascinating insight into Europe's 20th century.",
+      "cover_photo": "https://testcub1.s3.amazonaws.com/media/images/books/Le_Tour_A_History_Of_The_Tour_De_France_1903_--_20032021-02-20-16-59-10.jpg",
+      "book_name": "Le Tour A History Of The Tour De France 1903",
+      "category": "Historical",
+      "release_year": 2003,
+      "price": 168,
       "day": 1
     }
   ]

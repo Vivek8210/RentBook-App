@@ -99,7 +99,7 @@ const ProductList = ({ image, title, price, id, el }) => {
                 backgroundColor="#242830"
                 border="1px solid"
                 _hover={{ bg: "grey", color: "white" }}
-                //    onClick={()=>handelClick(el)}
+               
               >
                 BUY OR RENT
               </Box>

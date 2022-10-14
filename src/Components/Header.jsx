@@ -41,10 +41,10 @@ const Header = () => {
             className="novellogo"
             color={"teal"}
           >
-            Royal Novel Rent Book Shop
+            Book Rent And Buy App
           </Text>
         </Flex>
-        <Box width="40%" backgroundColor={"1px solid red"}>
+        <Box width="30%" backgroundColor={"1px solid red"}>
           <Flex padding="2.5rem">
             <Box className="Collections">
               <Select

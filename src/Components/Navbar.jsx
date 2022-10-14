@@ -48,8 +48,8 @@ const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <>
-      <Box px={4} backgroundColor={"black"}>
+    <Box >
+      <Box px={4} backgroundColor={"#0275dd"} >
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
             size={"md"}
@@ -82,9 +82,9 @@ const Navbar = () => {
               </Link>
               <Link to="/cart">
                 <Flex cursor="pointer">
-                  <Icon as={BsCart3} boxSize="1.4rem" mt="14px" />
+                  <Icon as={BsCart3} boxSize="1.7rem" mt="10px" />
                   <Text><CartCounter/></Text>
-                  <Text paddingTop={"0.4rem"}>Cart</Text>
+                  {/* <Text paddingTop={"0.4rem"}>Cart</Text> */}
                 </Flex>
               </Link>
               <SearchBarWrapper>
@@ -92,6 +92,7 @@ const Navbar = () => {
                 width={"50px"}
                 height={"80px"}
                 cursor={"pointer"}
+                onClick={() => setQ(text)}
                   src="https://image.shutterstock.com/image-vector/magnifying-glass-search-icon-flat-260nw-738763579.jpg"
                   alt=" Search logo"
                 />
@@ -103,7 +104,7 @@ const Navbar = () => {
                 />
               </SearchBarWrapper>
              <Link>
-             <Box marginLeft={"60px"}>Book Buy And Rent App</Box>
+             <Box marginLeft={"60px"} color={"#5cb55c"}>Book Buy And Rent App</Box>
              </Link>
             </HStack>
 
@@ -152,7 +153,7 @@ const Navbar = () => {
                     boxSize="1.1rem"
                     mt="7px"
                   />
-                  <Text></Text>
+                  <Text> <CartCounter/></Text>
                   <Text paddingTop={"0.4rem"}>Cart</Text>
                 </Flex>
               </Link>
@@ -165,7 +166,7 @@ const Navbar = () => {
         orientation="horizontal"
         bg={useColorModeValue("red", "gray.900")}
       />
-    </>
+    </Box>
   );
 };
 

@@ -14,7 +14,7 @@ const CartCounter = () => {
         }
     },[cart?.length,dispatch])
   return (
-    <Box backgroundColor="black" textColor="white"  borderRadius="50%" height="20px" width="20px" textAlign="center" marginTop="-20%" marginLeft="-20%">
+    <Box  textColor="black"  borderRadius="50%" height="20px" width="20px" textAlign="center" marginTop="-20%" marginLeft="-20%">
         {cart?.length ? cart.length:0}
     </Box>
   )

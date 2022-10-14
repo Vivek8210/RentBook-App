@@ -93,8 +93,8 @@ const handelClick =()=>{
                       <Th fontSize='18px'>₹{Math.ceil(el.price-(el.price*30)/100)}</Th>
                       <Th>
                          <Flex>
-                         <Text cursor="pointer" fontSize='22px' onClick={()=>handleSelect(el.id,qyt-1)} >-</Text> <Text fontSize='22px' >{el.day}</Text>
-                         <Text cursor="pointer"  fontSize='22px' onClick={()=>handleSelect(el.id,qyt+1)} >+</Text>
+                         <Text cursor="pointer" fontSize='22px' onClick={()=>handleSelect(el.id,qyt-1)} ><Box width={"20px"} color={"red"}>−</Box></Text> <Text fontSize='22px' >{el.day}</Text>
+                         <Text cursor="pointer"  fontSize='22px' onClick={()=>handleSelect(el.id,qyt+1)} ><Box width={"30px"} color={"green"}>+</Box></Text>
                          </Flex>
 
                        </Th>
@@ -111,12 +111,12 @@ const handelClick =()=>{
         </Box>
         <Flex justifyContent='space-between' padding='5px'>
           <Text>Add a note to your order</Text>
-          <Text>{`Subtotal  ₹${bag}`}</Text>
+          <Text fontSize={"2xl"} fontWeight={"bold"}>{`Subtotal  ₹${bag}`}</Text>
         </Flex>
         <Box textAlign='right'>Shipping, taxes, and discounts will be calculated at checkout.</Box>
         <Box textAlign='right' padding='0.5rem'>
        
-        <Button bg='#363F43' color='white' onClick={handelClick}>Checkout</Button>
+        <Button bg='green' color='white' onClick={handelClick}>Checkout</Button>
         </Box>
    </Box>
    </div>
