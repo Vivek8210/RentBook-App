@@ -1,4 +1,10 @@
 # Book Rent and Buy
+My Individual Project.
+
+
+Netlify Link :
+https://dapper-chebakia-d4e762.netlify.app/
+
 # Steps to run the Project:
 1. clone the Repository
 2. Run npm i 
@@ -15,8 +21,6 @@ These are the technologies used in this project which are available below with t
 5. Chakra UI
 6. For database -json-server
 
-Netlify Link :
-https://dapper-chebakia-d4e762.netlify.app/
 
 ## info :
 I thought to create a Book App. It Just like a library but it is online library if student want to read book then students should got to the site and can buy or can be take book at rent and very less price will pay for rent book and charge for book according to per day..
