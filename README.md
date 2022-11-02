@@ -1,4 +1,4 @@
-# ApolloClone
+# Book Rent and Buy
 # Steps to run the Project:
 1. clone the Repository
 2. Run npm i 
